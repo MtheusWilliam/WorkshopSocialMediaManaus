@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+h1 { 
+    color: #f66200;
+    font-family: Ubuntu;
+    font-size: 48px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 26.4px;
+    text-align: center;
+} 
+h2 { 
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    line-height: 26.4px;
+    color: #f66200;
+} 
+h3 { 
+    color: #f66200;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+} 
+p { 
+    font-family: Ubuntu;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 20px;
+} 
+#card-txt{
+    color: rgb(223,74,0);
+    font-weight: 500;
+    font-size: 17px;
+}
+.area-txt{
+    font-weight: 500;
+    font-size: 14.4px;
+}
+.subtitle-span{
+    font-family: Ubuntu;
+    color: #909497;
+}
+blockquote { 
+    font-family: Ubuntu;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+} 
+pre { 
+    font-family: Ubuntu;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+body{
+    position: relative;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body > header{
+    background: url("../images/BG_Header.png") no-repeat center;
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+main{
+    padding: 0px 10px 0px;
+}
+main > article > header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 40px;
+}
+#event-logo{
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.label-div{
+    color: black;
+    text-align: left;
+}
+
+.header-card{
+    margin: 0 20px 20px;
+    width: 400px;
+    max-width: 400px;
+    min-height: 330px;
+    max-height: 420px;
+    padding: 5px 10px 10px;
+}
+#counter-cards-div{
+    display: flex;
+    justify-content: space-around;
+}
+#second-article{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding: 90px 0 90px;
+}
+.custom-large-btn{
+    width: 100%;
+    max-width: 500px;
+    min-height: 80px;
+    max-height: 100px;
+}
+.custom-medium-btn{
+    width: 100%;
+    max-width: 340px;
+    min-height: 60px;
+    max-height: 80px;
+    margin: 7px 0 7px;
+}
+.custom-gradient-btn{
+    background: rgb(223,74,0);
+    background: linear-gradient(90deg, rgba(223,74,0,1) 0%, rgba(245,126,1,1) 100%);
+}
+.custom-gradient-btn:hover{
+    background: rgb(223,74,0);
+    background: linear-gradient(90deg, rgba(223,74,0,1) 0%, rgba(163,0,0,1) 100%);
+}
+.custom-flat-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #e8c915;
+}
+.custom-flat-btn:hover{
+    background-color: #db5f21;
+}
+.custom-flat-btn:active{
+    background-color: #c27e31;
+}
+.custom-medium-btn-txt{
+    font-size: 1.3em;
+    font-family: Ubuntu;
+    font-weight: 600;
+    color: white;
+}
+.custom-large-btn-txt{
+    font-size: 1.4em;
+    font-family: Ubuntu;
+    font-weight: 600;
+    color: white;
+}
+.area-icon{
+    width: 100%;
+    max-width: 40px;
+}
+.area-content-div{
+    padding: auto;
+}
+.counter-content-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    padding: auto;
+}
+.counter-number{
+    margin-top: -15px;
+    font-family: Ubuntu;
+    font-weight: bolder;
+    font-size: 42px;
+}
+.counter-rect{
+    background-color: rgb(223,74,0);
+    width: 35px;
+    height: 6px;
+    margin: 3px 0 7px;
+}
+.counter-label{
+    font-family: Ubuntu;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+#info-evento-div{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px;
+}
+#info-evento-txt{
+    text-align: center;
+    font-weight: bold;
+}
+#bern-logo-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px;
+}
+footer{
+    padding: 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 80px;
+    max-height: 150px;
+    background: rgb(223,74,0);
+    background: linear-gradient(90deg, rgba(223,74,0,1) 0%, rgba(245,126,1,1) 100%);
+    align-items: center;
+}
+.footer-txt{
+    color: white;
+    margin: 0 5px 0;
+}
